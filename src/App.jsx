@@ -23,7 +23,9 @@ render () {
     const {isLoading, movies} = this.state;
 return <div >{isLoading ? "Загружается...." : movies.map(movie => {
     console.log(movie);
-return <Movie id= {movie.id}
+return <Movie 
+    key={movie.id}
+    id= {movie.id}
     title= {movie.title}
     year= {movie.year}
     summaru= {movie.summaru}
