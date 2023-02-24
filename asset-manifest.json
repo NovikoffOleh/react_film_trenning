@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react_film_trenning/static/css/main.87db83c0.css",
-    "main.js": "/react_film_trenning/static/js/main.d783c9d0.js",
+    "main.css": "/react_film_trenning/static/css/main.bceeb326.css",
+    "main.js": "/react_film_trenning/static/js/main.cf613500.js",
     "index.html": "/react_film_trenning/index.html",
-    "main.87db83c0.css.map": "/react_film_trenning/static/css/main.87db83c0.css.map",
-    "main.d783c9d0.js.map": "/react_film_trenning/static/js/main.d783c9d0.js.map"
+    "main.bceeb326.css.map": "/react_film_trenning/static/css/main.bceeb326.css.map",
+    "main.cf613500.js.map": "/react_film_trenning/static/js/main.cf613500.js.map"
   },
   "entrypoints": [
-    "static/css/main.87db83c0.css",
-    "static/js/main.d783c9d0.js"
+    "static/css/main.bceeb326.css",
+    "static/js/main.cf613500.js"
   ]
 }
