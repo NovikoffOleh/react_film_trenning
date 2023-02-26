@@ -1,8 +1,24 @@
+/*import React from "react";
+import { HashRouter, Route } from "react-router-dom";
+
+import About from "./routes/About";
+
+function App () {
+    return (
+        <HashRouter>
+           
+        <Route path="about" element={About} />
+            
+        </HashRouter>
+    );
+}
+
+export default App;*/
+
+
 import  React from 'react';
-/*import PropTypes from 'prop-types';*/
 import axios from 'axios';
 import Movie from 'components/Movie/Movie';
-/*import './App.css';*/
 
 class App extends React.Component{
 
