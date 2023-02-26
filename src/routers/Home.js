@@ -2,9 +2,9 @@ import  React from 'react';
 /*import PropTypes from 'prop-types';*/
 import axios from 'axios';
 import Movie from 'components/Movie/Movie';
-/*import './App.css';*/
+import './Home.css';
 
-class App extends React.Component{
+class Home extends React.Component{
 
     state = {
         isLoading : true,
@@ -50,4 +50,4 @@ return (
 
 }
 
-export default App;
+export default Home;
