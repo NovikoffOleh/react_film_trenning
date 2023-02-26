@@ -24,14 +24,13 @@ render () {
     const {isLoading, movies} = this.state;
 return (
 <section className="container">
-    {isLoading 
-    ? <div className="loader">
+    {isLoading ? (
+    <div className="loader">
       <span className="loader_text">Загрузка</span>
       </div> 
-    : movies.map(movie => {
-    console.log(movie);
-return ( 
-<div className="movies">
+    ): (
+    <div  className="movies">
+    {movies.map((movie) => (
 <Movie 
     key={movie.id}
     id= {movie.id}
@@ -42,11 +41,9 @@ return (
     genres={movie.genres}
     poster= {movie.medium_cover_image}
     />
+    ))}
 </div>
-);
-
-    
-})}
+)};
 </section>
 );
 }
