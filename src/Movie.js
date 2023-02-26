@@ -7,7 +7,7 @@ function Movie({ id, title, year, summary, rating, genres,poster}){
         <img src={poster} alt={title} title={title}></img>
         <div className="movie__collum">
         <h3 className="movie__title">{title}</h3>
-        <ul className='geners'>
+        <ul className='movie__geners'>
             {genres.map((genere, index)=>{
             return <li key={index} className='geners__genere'>{genere}</li>
             })
